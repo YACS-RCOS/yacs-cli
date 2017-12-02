@@ -1,6 +1,5 @@
 require "thor"
 require "yacs/cli/version"
-require "yacs/cli/course"
 require "yacs/client"
 require "yacs/cli/printer"
 
