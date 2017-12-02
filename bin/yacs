@@ -1,7 +1,5 @@
-#!/usr/bin/env ruby -wU
+#!/usr/bin/env ruby
 
 require 'yacs/cli'
-
-puts 'Welcome to YACS!'
 
 Yacs::Cli::Command.start(ARGV)
