@@ -9,5 +9,9 @@ module Yacs
     def courses query
       JSON.parse(self.class.get '/courses', { query: query })['courses']
     end
+
+    def sections query
+      JSON.parse(self.class.get '/sections', { query: query })['sections']
+    end
   end
 end
